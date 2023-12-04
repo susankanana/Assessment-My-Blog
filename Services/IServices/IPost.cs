@@ -10,7 +10,7 @@ namespace MyBlog.Services.IServices
     internal interface IPost
     {
         Task<List<Post>> GetAllPosts();
-        Task<Post> GetPostById(int ID);
-        Task<int> GenerateBookId();
+        Task<Post> GetPostByUserId(int id);
+        
     }
 }

@@ -10,6 +10,6 @@ namespace MyBlog.Services.IServices
     internal interface IUser
     {
         Task<List<User>> GetAllUsers();
-        Task<User> GetUserByUsername(string username);
+        //Task<User> GetUserByUsername(string username);
     }
 }

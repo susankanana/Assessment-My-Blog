@@ -10,5 +10,6 @@ namespace MyBlog.Services.IServices
     internal interface IComment
     {
         Task<List<Comment>> GetAllComments();
+        Task<Comment> GetCommentByPostId(int id);
     }
 }

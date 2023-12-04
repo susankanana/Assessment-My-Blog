@@ -39,8 +39,9 @@ namespace MyBlog.Services
 
             return new List<User>();
         }
+        
 
-        public async Task<User> GetUserByUsername(string username)
+        /*public async Task<User> GetUserByUsername(string username)
         {
             try
             {
@@ -59,6 +60,6 @@ namespace MyBlog.Services
             }
 
             return new User();
-        }
+        } */
     }
 }

@@ -8,12 +8,14 @@ namespace MyBlog.Models
 {
     internal class Post
     {
-        public int Id { get; set; }
+        public int Id { get; set; }             
         public string Title { get; set; } = string.Empty;
 
-        public static implicit operator Post(int v)
-        {
-            throw new NotImplementedException();
-        }
+        public int userId { get; set; }
+
+        public string Body { get; set; } = string.Empty;
+
+
+
     }
 }

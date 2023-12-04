@@ -18,10 +18,7 @@ namespace MyBlog.Services
         {
             _httpClient = new HttpClient();
         }
-        public Task<int> GenerateBookId()
-        {
-            throw new NotImplementedException();
-        }
+        
 
         public async Task<List<Post>> GetAllPosts()
         {
@@ -44,7 +41,7 @@ namespace MyBlog.Services
             return new List<Post>();
         }
 
-        public async Task<Post> GetPostById(int id)
+        public async Task<Post> GetPostByUserId(int id)
         {
             try
             {
@@ -64,5 +61,9 @@ namespace MyBlog.Services
 
             return new Post();
         }
+        
+
+
     }
 }
+

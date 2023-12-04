@@ -38,5 +38,25 @@ namespace MyBlog.Services
 
             return new List<Comment>();
         }
+        public async Task<Comment> GetCommentByPostId(int id)
+        {
+            try
+            {
+                var response = await _httpClient.GetAsync(_URL + "/" + id);
+                var content = await response.Content.ReadAsStringAsync();
+                var comments = JsonConvert.DeserializeObject<Comment>(content);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    return comments;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.Write(ex.Message);
+            }
+
+            return new Comment();
+        }
     }
 }
