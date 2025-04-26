@@ -1,0 +1,17 @@
+C:\Users\user\source\repos\MyBlog\bin\Debug\net6.0\MyBlog.exe
+C:\Users\user\source\repos\MyBlog\bin\Debug\net6.0\MyBlog.deps.json
+C:\Users\user\source\repos\MyBlog\bin\Debug\net6.0\MyBlog.runtimeconfig.json
+C:\Users\user\source\repos\MyBlog\bin\Debug\net6.0\MyBlog.dll
+C:\Users\user\source\repos\MyBlog\bin\Debug\net6.0\MyBlog.pdb
+C:\Users\user\source\repos\MyBlog\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\user\source\repos\MyBlog\obj\Debug\net6.0\MyBlog.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\MyBlog\obj\Debug\net6.0\MyBlog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\MyBlog\obj\Debug\net6.0\MyBlog.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\MyBlog\obj\Debug\net6.0\MyBlog.AssemblyInfo.cs
+C:\Users\user\source\repos\MyBlog\obj\Debug\net6.0\MyBlog.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\MyBlog\obj\Debug\net6.0\MyBlog.csproj.CopyComplete
+C:\Users\user\source\repos\MyBlog\obj\Debug\net6.0\MyBlog.dll
+C:\Users\user\source\repos\MyBlog\obj\Debug\net6.0\refint\MyBlog.dll
+C:\Users\user\source\repos\MyBlog\obj\Debug\net6.0\MyBlog.pdb
+C:\Users\user\source\repos\MyBlog\obj\Debug\net6.0\MyBlog.genruntimeconfig.cache
+C:\Users\user\source\repos\MyBlog\obj\Debug\net6.0\ref\MyBlog.dll
